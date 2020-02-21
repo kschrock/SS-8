@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".CompanyLoginActivity">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/loginInputUsernameCompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/loginInputPasswordCompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Password" />
+
+    <Button android:id="@+id/buttonLoginCompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        />
+
+    <Button android:id="@+id/buttonMakeAcctCompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Account"
+        />
+
+    <Button android:id="@+id/buttonGotoUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Account"
+        />
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:gravity="center"
+    tools:context=".DevHomeActivity">
+
+
+    <TextView
+        android:id="@+id/textDevSplash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:text="Home"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/buttonGotoQR"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="QR Reader" />
+
+    <Button
+        android:id="@+id/buttonGotoProfile"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="Profile" />
+
+    <Button
+        android:id="@+id/buttonGotoEventList"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="Event List" />
+    <Button
+        android:id="@+id/buttonGotoPaypal"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="Discount" />
+
+
+
+
+</LinearLayout>
